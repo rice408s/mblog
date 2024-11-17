@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-base text-content font-mono antialiased;
+  }
+}
+
+@layer components {
+  /* 卡片基础样式 */
+  .card-base {
+    @apply bg-base-card border border-border hover:border-border-hover 
+    transition-all duration-300;
+  }
+
+  /* 按钮基础样式 */
+  .btn-base {
+    @apply px-4 py-2 bg-base-light border border-border
+    hover:border-border-hover transition-all duration-300
+    text-content-muted hover:text-content-light;
+  }
+
+  /* 标签基础样式 */
+  .tag-base {
+    @apply px-2 py-1 text-xs bg-base-light border border-border
+    hover:border-border-hover transition-colors duration-300;
+  }
+} 

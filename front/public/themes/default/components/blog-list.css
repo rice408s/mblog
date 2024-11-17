@@ -1,0 +1,27 @@
+.container {
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s;
+}
+
+.list {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.filter {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-secondary);
+  color: var(--text-secondary);
+}
+
+.filter:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.filter-active {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border-color: var(--border-primary);
+} 

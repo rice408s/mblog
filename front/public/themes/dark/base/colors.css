@@ -1,0 +1,17 @@
+:root {
+  /* 覆盖默认主题的颜色变量 */
+  --bg-primary: var(--ink-950);
+  --bg-secondary: var(--ink-900);
+  --bg-tertiary: var(--ink-800);
+  
+  --text-primary: var(--ink-50);
+  --text-secondary: var(--ink-200);
+  --text-tertiary: var(--ink-400);
+  
+  --border-primary: var(--ink-700);
+  --border-secondary: var(--ink-800);
+
+  /* RGB 值用于透明度计算 */
+  --bg-secondary-rgb: 23, 23, 23;
+  --bg-primary-rgb: 10, 10, 10;
+} 

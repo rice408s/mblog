@@ -1,0 +1,8 @@
+.protected {
+  background: var(--bg-primary);
+  transition: background-color 0.3s;
+}
+
+.protected[data-theme="dark"] {
+  background: var(--bg-primary);
+} 

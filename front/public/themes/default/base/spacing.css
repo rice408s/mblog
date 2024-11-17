@@ -1,0 +1,27 @@
+:root {
+  /* 基础间距单位 */
+  --spacing-unit: 0.25rem;
+  
+  /* 间距系统 */
+  --space-1: calc(var(--spacing-unit) * 1);  /* 0.25rem */
+  --space-2: calc(var(--spacing-unit) * 2);  /* 0.5rem */
+  --space-3: calc(var(--spacing-unit) * 3);  /* 0.75rem */
+  --space-4: calc(var(--spacing-unit) * 4);  /* 1rem */
+  --space-6: calc(var(--spacing-unit) * 6);  /* 1.5rem */
+  --space-8: calc(var(--spacing-unit) * 8);  /* 2rem */
+  --space-12: calc(var(--spacing-unit) * 12); /* 3rem */
+  --space-16: calc(var(--spacing-unit) * 16); /* 4rem */
+  
+  /* 容器宽度 */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  
+  /* 圆角 */
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+} 

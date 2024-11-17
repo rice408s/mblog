@@ -1,0 +1,9 @@
+.spinner {
+  color: var(--text-primary);
+  opacity: 0.8;
+  transition: color 0.3s;
+}
+
+.spinner[data-theme="dark"] {
+  color: var(--text-secondary);
+} 

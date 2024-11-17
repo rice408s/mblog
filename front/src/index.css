@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply prose-slate dark:prose-invert
+    prose-h1:text-slate-800 dark:prose-h1:text-slate-200
+    prose-h2:text-slate-800 dark:prose-h2:text-slate-200
+    prose-h3:text-slate-800 dark:prose-h3:text-slate-200
+    prose-p:text-slate-600 dark:prose-p:text-slate-300
+    prose-a:text-blue-600 dark:prose-a:text-blue-400
+    prose-blockquote:text-slate-600 dark:prose-blockquote:text-slate-400
+    prose-strong:text-slate-900 dark:prose-strong:text-slate-100
+    prose-ul:text-slate-600 dark:prose-ul:text-slate-300
+    prose-ol:text-slate-600 dark:prose-ol:text-slate-300
+    prose-li:text-slate-600 dark:prose-li:text-slate-300
+    prose-code:text-slate-800 dark:prose-code:text-slate-200
+    prose-pre:bg-slate-100 dark:prose-pre:bg-slate-800
+    prose-pre:text-slate-800 dark:prose-pre:text-slate-200;
+  }
+}
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 dark:bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-slate-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400 dark:bg-slate-500;
+}
+
+/* 动画类 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

@@ -1,0 +1,43 @@
+:root {
+  /* 主色调 */
+  --primary: #4a90e2;
+  --primary-light: #6ba4e9;
+  --primary-dark: #2171c9;
+  
+  /* 中性色 */
+  --ink-50: #fafafa;
+  --ink-100: #f5f5f5;
+  --ink-200: #e5e5e5;
+  --ink-300: #d4d4d4;
+  --ink-400: #a3a3a3;
+  --ink-500: #737373;
+  --ink-600: #525252;
+  --ink-700: #404040;
+  --ink-800: #262626;
+  --ink-900: #171717;
+  --ink-950: #0a0a0a;
+  
+  /* 背景色 */
+  --bg-primary: var(--ink-50);
+  --bg-secondary: #ffffff;
+  --bg-tertiary: var(--ink-100);
+  
+  /* 文本色 */
+  --text-primary: var(--ink-900);
+  --text-secondary: var(--ink-700);
+  --text-tertiary: var(--ink-500);
+  
+  /* 边框色 */
+  --border-primary: var(--ink-200);
+  --border-secondary: var(--ink-100);
+  
+  /* 状态色 */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+  
+  /* RGB 值用于透明度计算 */
+  --bg-secondary-rgb: 255, 255, 255;
+  --bg-primary-rgb: 250, 250, 250;
+} 

@@ -1,0 +1,16 @@
+.footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-secondary);
+  padding: var(--space-16) 0;
+}
+
+@supports (backdrop-filter: blur(8px)) {
+  .footer {
+    background: rgba(var(--bg-secondary-rgb), 0.7);
+    backdrop-filter: blur(8px);
+  }
+}
+
+.footer[data-theme="dark"] {
+  background: rgba(var(--bg-secondary-rgb), 0.5);
+} 

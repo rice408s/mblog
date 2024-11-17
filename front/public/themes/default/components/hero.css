@@ -1,0 +1,21 @@
+.hero {
+  background: var(--bg-primary);
+  transition: background-color 0.3s;
+}
+
+.hero[data-theme="dark"] {
+  background: var(--bg-primary);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    var(--primary-light) 0%,
+    transparent 70%
+  );
+  opacity: 0.1;
+  pointer-events: none;
+} 

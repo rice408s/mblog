@@ -1,0 +1,33 @@
+.blog-card {
+  --card-bg: var(--bg-secondary);
+  --card-border: var(--border-primary);
+  --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --card-radius: var(--radius-lg);
+  
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-2px);
+}
+
+.blog-card-title {
+  font-family: var(--font-kai);
+  font-size: var(--text-xl);
+  color: var(--text-primary);
+}
+
+.blog-card-summary {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+}
+
+.blog-card-meta {
+  font-size: var(--text-sm);
+  color: var(--text-tertiary);
+} 

@@ -1,0 +1,30 @@
+/* 导入基础样式 */
+@import './base/colors.css';
+@import './base/typography.css';
+@import './base/spacing.css';
+@import './base/shadows.css';
+
+/* 导入组件样式 */
+@import './components/blog-card.css';
+@import './components/blog-post.css';
+@import './components/navbar.css';
+@import './components/footer.css';
+@import './components/hero.css';
+@import './components/buttons.css';
+
+/* 全局样式 */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: var(--leading-normal);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
